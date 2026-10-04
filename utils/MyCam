@@ -1,0 +1,5 @@
+def get_view(self):
+    return super().get_view().flatten()
+
+def get_projection(self):
+    return super().get_projection().flatten()
